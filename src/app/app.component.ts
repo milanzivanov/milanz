@@ -20,6 +20,8 @@ import { trigger, state, style, transition, animate} from '@angular/animations';
 })
 export class AppComponent implements OnInit {
 
+  loader = false;
+
   menuState = 'out';
   menuActive = true;
 
@@ -27,6 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.loader = true;
   }
 
   toggleMenu() {
