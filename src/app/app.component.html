@@ -1,10 +1,9 @@
-<div class="container-loader" *ngIf="!loader">
+<!-- <div class="container-loader" *ngIf="!loader">
   <div class="loading"></div>
-</div>
+</div> -->
 
 <div>
-
-  <header class="header" *ngIf="loader">
+  <header class="header">
     <button (click)="toggleMenu()"
             class="hamburger">
       <span [ngClass]="menuActive ? 'active' : 'noActive'">
@@ -17,5 +16,4 @@
   </header>
   <app-menu [@slideInOut]="menuState"></app-menu>
   <app-main></app-main>
-
 </div>

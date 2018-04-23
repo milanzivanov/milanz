@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.loader = true;
   }
 
   toggleMenu() {
