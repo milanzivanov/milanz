@@ -1,0 +1,18 @@
+<div class="overlay"
+     *ngIf="visible"
+     (click)="close()">
+  <div class="modal"
+       [@dialog]
+       *ngIf="visible">
+    <div class="modal-content">
+        <span class="closeBtn"
+              *ngIf="closable"
+              (click)="close()">&times;</span>
+        <img src="../../assets/just_me.jpg"
+             alt="my picture">
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,13 +1,19 @@
-<header class="header">
-  <button (click)="toggleMenu()"
-          class="hamburger">
-    <span [ngClass]="menuActive ? 'active' : 'noActive'">
-      toggle menu
-    </span>
-  </button>
-  <div class="active-page">
-    <h2>Home</h2>
-  </div>
-</header>
-<app-menu [@slideInOut]="menuState"></app-menu>
-<app-main></app-main>
+<!-- <div class="container-loader" *ngIf="!loader">
+  <div class="loading"></div>
+</div> -->
+
+<div>
+  <header class="header">
+    <button (click)="toggleMenu()"
+            class="hamburger">
+      <span [ngClass]="menuActive ? 'active' : 'noActive'">
+        toggle menu
+      </span>
+    </button>
+    <div class="active-page">
+      <h2>Home</h2>
+    </div>
+  </header>
+  <app-menu [@slideInOut]="menuState"></app-menu>
+  <app-main></app-main>
+</div>

@@ -6,13 +6,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    MainComponent
+    MainComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

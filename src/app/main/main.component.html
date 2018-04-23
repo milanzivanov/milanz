@@ -16,12 +16,5 @@
   </div>
 </section>
 
-<div id="simpleModal"
-     class="modal"
-     [style.visibility]="showDialog ? 'visible' : 'hidden'">
-  <div class="modal-content">
-      <span class="closeBtn" (click)="showDialog = !showDialog">&times;</span>
-      <img src="../../assets/just_me.jpg"
-           alt="my picture">
-  </div>
-</div>
+<app-modal [(visible)]="showDialog">
+</app-modal>

@@ -20,6 +20,8 @@ import { trigger, state, style, transition, animate} from '@angular/animations';
 })
 export class AppComponent implements OnInit {
 
+  loader = false;
+
   menuState = 'out';
   menuActive = true;
 
