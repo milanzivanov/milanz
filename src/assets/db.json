@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Home",
     "username": "Bret",
+    "routerLink": "home",
     "icon": "<i class='material-icons'>face</i>&nbsp;",
     "email": "Sincere@april.biz",
     "address": {
@@ -27,6 +28,7 @@
     "id": 2,
     "name": "About",
     "username": "Antonette",
+    "routerLink": "about",
     "icon": "<i class='material-icons'>build</i>&nbsp;",
     "email": "Shanna@melissa.tv",
     "address": {
@@ -51,6 +53,7 @@
     "id": 3,
     "name": "Contact",
     "username": "Samantha",
+    "routerLink": "contact",
     "icon": "<i class='material-icons'>favorite</i>&nbsp;",
     "email": "Nathan@yesenia.net",
     "address": {
@@ -75,6 +78,7 @@
     "id": 4,
     "name": "Portfolio",
     "username": "Karianne",
+    "routerLink": "portfolio",
     "icon": "<i class='material-icons'>face</i>&nbsp;",
     "email": "Julianne.OConner@kory.org",
     "address": {
@@ -97,8 +101,9 @@
   },
   {
     "id": 5,
-    "name": "Something",
+    "name": "Technology",
     "username": "Kamren",
+    "routerLink": "technology",
     "icon": "<i class='material-icons'>face</i>&nbsp;",
     "email": "Lucio_Hettinger@annie.ca",
     "address": {

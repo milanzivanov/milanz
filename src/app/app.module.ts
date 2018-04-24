@@ -9,6 +9,11 @@ import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
 import { ModalComponent } from './modal/modal.component';
 import { InfoService } from './info.service';
+import { AppRoutingModule } from './/app-routing.module';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TechnologyComponent } from './technology/technology.component';
 
 
 @NgModule({
@@ -16,13 +21,18 @@ import { InfoService } from './info.service';
     AppComponent,
     MenuComponent,
     MainComponent,
-    ModalComponent
+    ModalComponent,
+    AboutComponent,
+    ContactComponent,
+    PortfolioComponent,
+    TechnologyComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [InfoService],
   bootstrap: [AppComponent]

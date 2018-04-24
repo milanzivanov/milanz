@@ -23,6 +23,8 @@
   height: calc(100% + 96px);
   overflow: auto;
   transition: all 0.3s;
+
+  cursor: pointer;
 }
 
 .modal-content {
@@ -38,6 +40,8 @@
   animation-name: modalopen;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
+
+  cursor: pointer;
 }
 
 .modal-content img {
@@ -52,6 +56,8 @@
   width: 35px;
   height: 35px;
   transition: 0.3s all ease-in-out;
+
+  cursor: pointer;
 }
 
 .modal-content:hover > img {

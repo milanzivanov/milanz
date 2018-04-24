@@ -1,11 +1,9 @@
 
 <ul>
-  <!-- <div>
-    <h3> Selected user is: <span *ngIf="selected">{{selected.name}}</span></h3>
-  </div> -->
   <li *ngFor="let user of users; index as i"
       (click)="selectedUser(user)">
-      <a href="#" [class.selected]="user === selectedActive">
+      <a routerLink="/{{user.routerLink}}"
+         [class.selected]="user === selectedActive">
         {{user.name}}
       </a>
   </li>

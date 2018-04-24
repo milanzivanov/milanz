@@ -2,9 +2,6 @@
   <div class="loading"></div>
 </div> -->
 
-
-
-
 <div (selectStory)="getStory($event)">
   <header class="header">
     <button (click)="toggleMenu()"
@@ -18,11 +15,10 @@
     </div>
   </header>
 
-  <!-- <div>
-      <h3> Selected user is: <span *ngIf="selected">{{selected.name}}</span></h3>
-  </div> -->
-
-  <app-menu [@slideInOut]="menuState" (selected)="selectedPage=$event"></app-menu>
-  <app-main></app-main>
+  <app-menu [@slideInOut]="menuState"
+            (selected)="selectedPage=$event">
+  </app-menu>
+  <!-- <app-main></app-main> -->
+  <router-outlet></router-outlet>
 
 </div>
