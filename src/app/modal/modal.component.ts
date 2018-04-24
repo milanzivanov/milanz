@@ -18,6 +18,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   //     transition('out => in', animate('400ms ease-in-out'))
   //   ]),
   // ]
+
   animations: [
     trigger('dialog', [
       transition('void => *', [
