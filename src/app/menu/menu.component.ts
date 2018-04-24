@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { InfoService } from './../info.service';
+import { RootObject } from './../interfaceInfo';
 
 @Component({
   selector: 'app-menu',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  public users: RootObject[] = [];
+  public selectedActive: RootObject;
 
-  ngOnInit() {
+  // Output
+  @Output() public selected = new EventEmitter<RootObject>();
+
+  constructor(private _getInfo: InfoService) { }
+
+  // promise async await
+  async ngOnInit() {
+    const temp = await this._getInfo.getInfo();
+    this.users = temp;
+  }
+
+  selectedUser(user: RootObject) {
+    this.selectedActive = user;
+    // console.log(user);
+
+   // Output
+    this.selected.emit(user);
   }
 
 }

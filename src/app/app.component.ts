@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { RootObject } from './interfaceInfo';
 import { trigger, state, style, transition, animate} from '@angular/animations';
 
 @Component({
@@ -24,6 +25,9 @@ export class AppComponent implements OnInit {
 
   menuState = 'out';
   menuActive = true;
+
+  // Output
+  public selectedPage = '';
 
   constructor(  ) {
   }

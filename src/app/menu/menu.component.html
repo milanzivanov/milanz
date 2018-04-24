@@ -1,33 +1,14 @@
+
 <ul>
-  <li>
-    <a href="#">
-      <i class="material-icons">home</i>&nbsp;
-      Home
-    </a>
-  </li>
-  <li>
-    <a href="#">
-        <i class="material-icons">account_box</i>&nbsp;
-        About
-    </a>
-  </li>
-  <li>
-    <a href="#">
-        <i class="material-icons">favorite</i>&nbsp;
-        Contact
-    </a>
-  </li>
-  <li>
-    <a href="#">
-        <i class="material-icons">build</i>&nbsp;
-        Portfolio
-    </a>
-  </li>
-  <li>
-    <a href="#">
-        <i class="material-icons">face</i>&nbsp;
-        Story
-    </a>
+  <!-- <div>
+    <h3> Selected user is: <span *ngIf="selected">{{selected.name}}</span></h3>
+  </div> -->
+  <li *ngFor="let user of users; index as i"
+      (click)="selectedUser(user)">
+      <a href="#" [class.selected]="user === selectedActive">
+        {{user.name}}
+      </a>
   </li>
 </ul>
+
 

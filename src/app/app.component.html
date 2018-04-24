@@ -2,7 +2,10 @@
   <div class="loading"></div>
 </div> -->
 
-<div>
+
+
+
+<div (selectStory)="getStory($event)">
   <header class="header">
     <button (click)="toggleMenu()"
             class="hamburger">
@@ -11,9 +14,15 @@
       </span>
     </button>
     <div class="active-page">
-      <h2>Home</h2>
+      <h2>{{selectedPage.name}}</h2>
     </div>
   </header>
-  <app-menu [@slideInOut]="menuState"></app-menu>
+
+  <!-- <div>
+      <h3> Selected user is: <span *ngIf="selected">{{selected.name}}</span></h3>
+  </div> -->
+
+  <app-menu [@slideInOut]="menuState" (selected)="selectedPage=$event"></app-menu>
   <app-main></app-main>
+
 </div>

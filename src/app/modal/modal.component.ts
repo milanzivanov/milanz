@@ -5,14 +5,27 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   selector: 'app-modal',
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.scss'],
+
+  // animations: [
+  //   trigger('slideInOut', [
+  //     state('in', style({
+  //       transform: 'translate3d(0, 0, 0)'
+  //     })),
+  //     state('out', style({
+  //       transform: 'translate3d(100%, 0, 0)'
+  //     })),
+  //     transition('in => out', animate('400ms ease-in-out')),
+  //     transition('out => in', animate('400ms ease-in-out'))
+  //   ]),
+  // ]
   animations: [
     trigger('dialog', [
       transition('void => *', [
         style({ transform: 'scale3d(.3, .3, .3)' }),
-        animate(100)
+        animate('400ms ease-in-out')
       ]),
       transition('* => void', [
-        animate(100, style({ transform: 'scale3d(.0, .0, .0)' }))
+        animate(400, style({ transform: 'scale3d(.0, .0, .0)' }))
       ])
     ])
   ]
