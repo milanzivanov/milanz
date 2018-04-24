@@ -25,8 +25,6 @@ export class MenuComponent implements OnInit {
 
   selectedUser(user: RootObject) {
     this.selectedActive = user;
-    // console.log(user);
-
    // Output
     this.selected.emit(user);
   }
