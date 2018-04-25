@@ -27,9 +27,10 @@ export class AppComponent implements OnInit {
   menuActive = true;
 
   // Output
-  public selectedPage = '';
 
-  constructor(  ) {
+  public selectedPage = '';
+  constructor() {
+
   }
 
   ngOnInit() {

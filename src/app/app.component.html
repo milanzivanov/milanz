@@ -2,7 +2,6 @@
   <div class="loading"></div>
 </div> -->
 
-<div (selectStory)="getStory($event)">
   <header class="header">
     <button (click)="toggleMenu()"
             class="hamburger">
@@ -10,9 +9,14 @@
         toggle menu
       </span>
     </button>
-    <div class="active-page">
-      <h2>{{selectedPage.name}}</h2>
+
+    <div class="active-page" *ngIf="!selectedPage || selectedPage.name === ''; else elseBlock">
+      <h2>Home</h2>
     </div>
+    <ng-template #elseBlock>
+      <h2>{{selectedPage.name}}</h2>
+    </ng-template>
+
   </header>
 
   <app-menu [@slideInOut]="menuState"
@@ -22,5 +26,3 @@
   <main class="main">
     <router-outlet></router-outlet>
   </main>
-
-</div>
