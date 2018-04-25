@@ -10,7 +10,7 @@
       </span>
     </button>
 
-    <div class="active-page" *ngIf="!selectedPage || selectedPage.name === ''; else elseBlock">
+    <div class="active-page" *ngIf="!selectedPage; else elseBlock">
       <h2>Home</h2>
     </div>
     <ng-template #elseBlock>
