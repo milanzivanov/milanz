@@ -12,8 +12,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
   - Pages to design
   - Google maps
   - Responsive
-  - Active page to fix
   - Slide menu to fix...
 
 ## In Progress
-[Link preview in progress](http://unequal-burn.surge.sh/)
+[Link preview in progress](http://groovy-system.surge.sh/)
