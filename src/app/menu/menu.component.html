@@ -3,9 +3,9 @@
       (click)="selectedUser(user)">
       <a routerLink="/{{user.routerLink}}"
          [class.selected]="user === selectedActive">
+         <i class="material-icons">{{user.icon}}&nbsp;</i>
         {{user.name}}
       </a>
   </li>
 </ul>
-
 

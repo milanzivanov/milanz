@@ -1,6 +1,8 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { RootObject } from './interfaceInfo';
 import { trigger, state, style, transition, animate} from '@angular/animations';
+import { InfoService } from './info.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -25,15 +27,16 @@ export class AppComponent implements OnInit {
 
   menuState = 'out';
   menuActive = true;
-
   // Output
+  public selectedPage: RootObject;
 
-  public selectedPage = '';
-  constructor() {
+  constructor(private _getInfo: InfoService,
+    private _router: Router) { }
 
-  }
-
-  ngOnInit() {
+  // promise async await
+  async ngOnInit() {
+    const temp = await this._getInfo.getInfo();
+    this.selectedPage = temp.find(p => this._router.url === '/' + p.routerLink);
   }
 
   toggleMenu() {

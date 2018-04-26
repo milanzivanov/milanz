@@ -23,7 +23,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
     trigger('dialog', [
       transition('void => *', [
         style({ transform: 'scale3d(.3, .3, .3)' }),
-        animate('100ms ease-in-out')
+        animate('50ms ease-in-out')
       ]),
       transition('* => void', [
         animate(100, style({ transform: 'scale3d(.0, .0, .0)' }))

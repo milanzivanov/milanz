@@ -7,6 +7,7 @@ export interface RootObject {
   phone: string;
   website: string;
   company: Company;
+  routerLink: string;
 }
 
 interface Company {
