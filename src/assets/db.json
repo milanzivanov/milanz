@@ -31,7 +31,7 @@
     "id": 2,
     "name": "Experience",
     "username": "Antonette",
-    "routerLink": "about",
+    "routerLink": "experience",
     "icon": "build",
     "email": "Shanna@melissa.tv",
     "address": {

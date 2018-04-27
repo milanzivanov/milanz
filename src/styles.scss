@@ -21,13 +21,13 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: calc(100vh - 96px);
 }
 
 // loading animation
 .container-loader {
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 96px);
   z-index: 1000;
   background-color: #fff;
   position: absolute;
