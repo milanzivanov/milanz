@@ -10,7 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
   - Modal to fix
   - Pages to design
-  - Google maps
   - Responsive
   - Slide menu to fix...
 
