@@ -29,7 +29,7 @@
   },
   {
     "id": 2,
-    "name": "About",
+    "name": "Experience",
     "username": "Antonette",
     "routerLink": "about",
     "icon": "build",

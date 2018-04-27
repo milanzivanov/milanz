@@ -23,8 +23,6 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
 
-  loader = false;
-
   menuState = 'out';
   menuActive = true;
   // Output

@@ -10,7 +10,7 @@ import { RootObject } from './../interfaceInfo';
 export class MenuComponent implements OnInit {
 
   public users: RootObject[] = [];
-  public selectedActive: RootObject;
+  // public selectedActive: RootObject;
 
   // Output
   @Output() public selected = new EventEmitter<RootObject>();
@@ -24,8 +24,8 @@ export class MenuComponent implements OnInit {
   }
 
   selectedUser(user: RootObject) {
-    this.selectedActive = user;
-   // Output
+    // this.selectedActive = user;
+    // Output
     this.selected.emit(user);
   }
 

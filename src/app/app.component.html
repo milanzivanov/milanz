@@ -10,17 +10,9 @@
       </span>
     </button>
 
-    <div class="active-page">
+    <div class="active-page" *ngIf="selectedPage">
       <h2>{{selectedPage.name}}</h2>
     </div>
-
-
-    <!-- <div class="active-page" *ngIf="!selectedPage; else elseBlock">
-      <h2>Home</h2>
-    </div>
-    <ng-template #elseBlock>
-      <h2>{{selectedPage.name}}</h2>
-    </ng-template> -->
 
   </header>
 

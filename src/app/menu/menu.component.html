@@ -2,10 +2,11 @@
   <li *ngFor="let user of users; index as i"
       (click)="selectedUser(user)">
       <a routerLink="/{{user.routerLink}}"
-         [class.selected]="user === selectedActive">
+         routerLinkActive="active">
          <i class="material-icons">{{user.icon}}&nbsp;</i>
         {{user.name}}
       </a>
   </li>
 </ul>
 
+<!-- [class.selected]="user === selectedActive" -->

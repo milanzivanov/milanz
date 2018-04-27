@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { MainComponent } from './main/main.component';
-import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TechnologyComponent } from './technology/technology.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
     path: 'home', component: MainComponent
   },
   {
-    path: 'about', component: AboutComponent
+    path: 'experience', component: ExperienceComponent
   },
   {
     path: 'contact', component: ContactComponent

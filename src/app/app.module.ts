@@ -10,7 +10,7 @@ import { MainComponent } from './main/main.component';
 import { ModalComponent } from './modal/modal.component';
 import { InfoService } from './info.service';
 import { AppRoutingModule } from './/app-routing.module';
-import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TechnologyComponent } from './technology/technology.component';
@@ -23,7 +23,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MenuComponent,
     MainComponent,
     ModalComponent,
-    AboutComponent,
+    ExperienceComponent,
     ContactComponent,
     PortfolioComponent,
     TechnologyComponent,
