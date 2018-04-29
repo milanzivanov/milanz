@@ -17,7 +17,7 @@ const routes: Routes = [
     path: 'home', component: MainComponent
   },
   {
-    path: 'experience', component: ExperienceComponent
+    path: 'experience', component: ExperienceComponent, data: { page: 'app-experience' }
   },
   {
     path: 'contact', component: ContactComponent
