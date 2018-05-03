@@ -3,7 +3,10 @@
 
 <section class="container">
   <div class="wrapper">
-    <p>Lorem ipsum dolor experience, sit amet consectetur adipisicing elit.
-       Atque qui voluptatibus quibusdam rerum accusamus eaque adipisci id sint quam optio similique reprehenderit molestiae totam ipsam, aliquam molestias est sed accusantium consequatur. Accusantium ut quam ratione reiciendis rem sit quis expedita laborum vitae quibusdam assumenda saepe dolore maiores, fuga quas tenetur?</p>
+    <ul *ngFor="let story of stories">
+      <p>
+        {{story.expi}}
+      </p>
+    </ul>
   </div>
 </section>

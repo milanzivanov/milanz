@@ -28,7 +28,8 @@ export class AppComponent implements OnInit {
   // Output
   public selectedPage: RootObject;
 
-  constructor(private _getInfo: InfoService,
+  constructor(
+    private _getInfo: InfoService,
     private _router: Router) { }
 
   // promise async await

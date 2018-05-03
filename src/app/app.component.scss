@@ -3,7 +3,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-family: sans-serif;
+
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
   h2 {
     color: #155799;
     transition: color .3s ease-in-out;

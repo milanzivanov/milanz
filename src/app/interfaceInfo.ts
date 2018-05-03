@@ -8,6 +8,7 @@ export interface RootObject {
   website: string;
   company: Company;
   routerLink: string;
+  expi: string;
 }
 
 interface Company {

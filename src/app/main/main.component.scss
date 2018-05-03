@@ -10,8 +10,10 @@ section#main {
   justify-content: center;
   align-items: center;
 
-  font-family: 'Roboto', sans-serif, 'Inter UI',sans-serif;
-  font-family: 'ns', sans-serif;
+  position: absolute;
+  top: 95px;
+  right: 0;
+  left: 0;
 }
 
 wider_container {
