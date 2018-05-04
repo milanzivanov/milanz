@@ -1,25 +1,27 @@
-<!-- <div class="container-loader" *ngIf="!loader">
-  <div class="loading"></div>
-</div> -->
+<div class="overlay"
+     *ngIf="visible"
+     (click)="toggleMenu()">
+</div>
 
-  <header class="header">
-    <button (click)="toggleMenu()"
-            class="hamburger">
-      <span [ngClass]="menuActive ? 'active' : 'noActive'">
-        toggle menu
-      </span>
-    </button>
+<header class="header">
+  <button (click)="toggleMenu()"
+          class="hamburger">
+    <span [ngClass]="menuActive ? 'active' : 'noActive'">
+      toggle menu
+    </span>
+  </button>
 
-    <div class="active-page" *ngIf="selectedPage">
-      <h2>{{selectedPage.name}}</h2>
-    </div>
+  <div class="active-page" *ngIf="selectedPage">
+    <h2>{{selectedPage.name}}</h2>
+  </div>
 
-  </header>
 
-  <app-menu [@slideInOut]="menuState"
-            (selected)="selectedPage=$event">
-  </app-menu>
+</header>
 
-  <main class="main">
-    <router-outlet></router-outlet>
-  </main>
+<app-menu [@slideInOut]="menuState"
+          (selected)="selectedPage=$event">
+</app-menu>
+
+<main class="main">
+  <router-outlet></router-outlet>
+</main>
