@@ -7,3 +7,80 @@ agm-map {
   left: 0;
 }
 
+section.container {
+  background-image: url('../../assets/bg-wire.svg');
+  // background-color: #222;
+
+  height: calc(100vh - 300px);
+  padding: 20px 0;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  color: #155799;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  color: #155799;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.small {
+  font-size: 1.25rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'ns';
+}
+
+span.title {
+  font-weight: 500; }
+
+.contact {
+  font-size: 1.125rem;
+}
+
+.contact a {
+  color: #155799;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; }
+
+i.fab {
+  font-size: 1.5rem;
+  padding: 0 .375rem;
+  transition: transform 0.15s; }
+
+.fab:hover {
+  transform: scale(1.25); }
+
+.links a {
+  // color: #06f;
+  color: #155799;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+
