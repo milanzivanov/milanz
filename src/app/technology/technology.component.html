@@ -4,6 +4,20 @@
 <section class="container">
   <div class="wrapper">
 
+      <!-- chart -->
+      <div style="width: 100%;">
+        <canvas
+            baseChart
+            [chartType]="'horizontalBar'"
+            [datasets]="chartData"
+            [labels]="chartLabels"
+            [options]="chartOptions"
+            [legend]="true"
+            (chartClick)="onChartClick($event)">
+        </canvas>
+      </div>
+
+
     <!-- skill bar -->
     <div class="center">
       <h1>Softwere Skills</h1>
