@@ -5,7 +5,7 @@
   <div class="wrapper">
 
       <!-- chart -->
-      <div style="width: 100%;">
+      <div style="width: 100%; padding: 50px">
         <canvas
             baseChart
             [chartType]="'horizontalBar'"
@@ -13,13 +13,14 @@
             [labels]="chartLabels"
             [options]="chartOptions"
             [legend]="true"
+            [colors]="chartColors"
             (chartClick)="onChartClick($event)">
         </canvas>
       </div>
 
 
     <!-- skill bar -->
-    <div class="center">
+    <!-- <div class="center">
       <h1>Softwere Skills</h1>
       <div class="skillBox">
         <div class="box">
@@ -66,7 +67,7 @@
           <div class="skill_level" style="width: 70%"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
   </div>

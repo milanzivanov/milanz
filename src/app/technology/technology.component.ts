@@ -10,24 +10,33 @@ export class TechnologyComponent implements OnInit {
 
   chartOptions = {
     responsive: true,
-
-    // barPercentage: Number,
-    // backgroundColor: '#222',
-    // borderColor: 'indianred',
-    // pointBackgroundColor: 'rgb(103, 58, 183)',
-    // pointBorderColor: '#fff',
-    // pointHoverBackgroundColor: '#fff',
-    // pointHoverBorderColor: 'rgba(103, 58, 183, .8)'
   };
 
-  chartData = [
-    { data: [330, 600, 260, 700], label: 'Account A' },
-    { data: [120, 455, 100, 340], label: 'Account B' },
-    { data: [45, 67, 800, 500], label: 'Account C' },
-    { data: [45, 50, 850, 400], label: 'Account D' }
+  public chartColors: Array<any> = [
+    { // first color
+      backgroundColor: '#155799',
+      borderColor: 'rgba(225,10,24,0.2)',
+      pointBackgroundColor: 'rgba(225,10,24,0.2)',
+      pointBorderColor: 'red',
+      pointHoverBackgroundColor: '#fff',
+      pointHoverBorderColor: 'rgba(225,10,24,0.2)'
+    },
+    // {
+    //   // second color
+    //   backgroundColor: 'indianred',
+    //   borderColor: 'rgba(225,10,24,0.2)',
+    //   pointBackgroundColor: 'rgba(225,10,24,0.2)',
+    //   pointBorderColor: '#fff',
+    //   pointHoverBackgroundColor: '#fff',
+    //   pointHoverBorderColor: 'rgba(225,10,24,0.2)'
+    // }
   ];
 
-  chartLabels = ['HTML5', 'CSS3', 'Angular', 'js', 'Git'];
+  chartData = [
+    { data: [75, 70, 51, 49, 70, 60], label: 'SOFTWERE SKILLS' },
+  ];
+
+  chartLabels = ['HTML5', 'CSS3', 'Angular', 'js', 'Git', 'SourceTree'];
 
   onChartClick(event) {
     console.log(event);
