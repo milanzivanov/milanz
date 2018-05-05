@@ -11,3 +11,28 @@ section#experience {
   right: 0;
   left: 0;
 }
+
+.companies {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+a {
+  color: #06f;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  height: 5rem;
+  margin: 0 1rem;
+  transition: transform 0.25s;
+}
+
+img:hover {
+  transform: scale(1.25);
+}
