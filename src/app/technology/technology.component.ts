@@ -10,6 +10,8 @@ export class TechnologyComponent implements OnInit {
 
   chartOptions = {
     responsive: true,
+    defaultFontFamily: 'Montserrat',
+    position: 'right',
   };
 
   public chartColors: Array<any> = [
@@ -20,16 +22,7 @@ export class TechnologyComponent implements OnInit {
       pointBorderColor: 'red',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(225,10,24,0.2)'
-    },
-    // {
-    //   // second color
-    //   backgroundColor: 'indianred',
-    //   borderColor: 'rgba(225,10,24,0.2)',
-    //   pointBackgroundColor: 'rgba(225,10,24,0.2)',
-    //   pointBorderColor: '#fff',
-    //   pointHoverBackgroundColor: '#fff',
-    //   pointHoverBorderColor: 'rgba(225,10,24,0.2)'
-    // }
+    }
   ];
 
   chartData = [
