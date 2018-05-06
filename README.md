@@ -9,9 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 # Tasks to do
 
   - Modal to fix
-  - Pages to design
-  - Responsive
-  - Slide menu to fix...
+  - Responsive...
 
 ## In Progress
-[Link preview in progress](http://loud-pickle.surge.sh/)
+[Link preview in progress](http://far-flung-doctor.surge.sh/)
