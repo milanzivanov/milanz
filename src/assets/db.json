@@ -32,7 +32,7 @@
     "name": "Experience",
     "username": "Antonette",
     "routerLink": "experience",
-    "icon": "explore",
+    "icon": "code",
     "email": "Shanna@melissa.tv",
     "address": {
       "street": "Victor Plains",
@@ -113,7 +113,7 @@
     "name": "Contact",
     "username": "Samantha",
     "routerLink": "contact",
-    "icon": "favorite",
+    "icon": "contact_support",
     "email": "Nathan@yesenia.net",
     "address": {
       "street": "Douglas Extension",
