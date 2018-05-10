@@ -7,9 +7,10 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class InfoService {
 
+  public url = '../assets/db.json';
+
   constructor(private _http: HttpClient) { }
 
-  public url = '../assets/db.json';
 
     // with promise
     async getInfo(): Promise<RootObject[]> {

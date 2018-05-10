@@ -26,6 +26,7 @@ export class AppComponent implements OnInit {
   menuState = 'out';
   menuActive = true;
   visible: boolean;
+
   // Output
   public selectedPage: RootObject;
 
@@ -43,13 +44,8 @@ export class AppComponent implements OnInit {
     // 1-line if statement that toggles the value:
     this.menuState = this.menuState === 'out' ? 'in' : 'out';
     this.menuActive = !this.menuActive;
-
     this.visible = !this.visible;
   }
-
-  // overlay
-  // close() {
-  // }
 
 }
 
