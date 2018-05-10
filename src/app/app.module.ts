@@ -5,31 +5,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
 import { ChartsModule } from 'ng2-charts';
-
-import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
-import { MainComponent } from './main/main.component';
-import { ModalComponent } from './modal/modal.component';
 import { InfoService } from './info.service';
+
 import { AppRoutingModule } from './/app-routing.module';
-import { ExperienceComponent } from './experience/experience.component';
-import { ContactComponent } from './contact/contact.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { TechnologyComponent } from './technology/technology.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AppComponent } from './app.component';
+import { routingComponents } from './app-routing.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent,
-    MainComponent,
-    ModalComponent,
-    ExperienceComponent,
-    ContactComponent,
-    PortfolioComponent,
-    TechnologyComponent,
-    PageNotFoundComponent
+    routingComponents
   ],
   imports: [
     BrowserModule,

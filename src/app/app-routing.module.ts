@@ -1,3 +1,4 @@
+import { ModalComponent } from './modal/modal.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -7,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 const routes: Routes = [
@@ -43,3 +45,14 @@ const routes: Routes = [
   ]
 })
 export class AppRoutingModule { }
+
+export const routingComponents = [
+  MainComponent,
+  MenuComponent,
+  ContactComponent,
+  ExperienceComponent,
+  PageNotFoundComponent,
+  ModalComponent,
+  PortfolioComponent,
+  TechnologyComponent
+];
