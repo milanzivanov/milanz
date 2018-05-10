@@ -32,7 +32,7 @@
     "name": "Experience",
     "username": "Antonette",
     "routerLink": "experience",
-    "icon": "build",
+    "icon": "explore",
     "email": "Shanna@melissa.tv",
     "address": {
       "street": "Victor Plains",
@@ -57,30 +57,27 @@
   },
   {
     "id": 3,
-    "name": "Contact",
-    "username": "Samantha",
-    "routerLink": "contact",
-    "icon": "favorite",
-    "email": "Nathan@yesenia.net",
+    "name": "Technology",
+    "username": "Kamren",
+    "routerLink": "technology",
+    "icon": "build",
+    "email": "Lucio_Hettinger@annie.ca",
     "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
       "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
+        "lat": "-31.8129",
+        "lng": "62.5342"
       }
     },
 
-    "expi": "HTEC here i worked on verso enterprise aplication link. Fixing bugs, Inserting new pages(html5/css3/angular-material), I have also spent some time working on angularjs...",
-
-    "phone": "1-463-123-4447",
-    "website": "https://verso-stage.htec.co.rs/admin/#/login",
+    "phone": "(254)954-1289",
     "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
     }
   },
   {
@@ -113,27 +110,30 @@
   },
   {
     "id": 5,
-    "name": "Technology",
-    "username": "Kamren",
-    "routerLink": "technology",
-    "icon": "explore",
-    "email": "Lucio_Hettinger@annie.ca",
+    "name": "Contact",
+    "username": "Samantha",
+    "routerLink": "contact",
+    "icon": "favorite",
+    "email": "Nathan@yesenia.net",
     "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
       "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
+        "lat": "-68.6102",
+        "lng": "-47.0653"
       }
     },
 
-    "phone": "(254)954-1289",
+    "expi": "HTEC here i worked on verso enterprise aplication link. Fixing bugs, Inserting new pages(html5/css3/angular-material), I have also spent some time working on angularjs...",
+
+    "phone": "1-463-123-4447",
+    "website": "https://verso-stage.htec.co.rs/admin/#/login",
     "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
     }
   }
 ]

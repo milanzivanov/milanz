@@ -61,18 +61,3 @@
   display: table;
   clear: both;
 }
-
-.closeBtn {
-  position: absolute;
-  color: #ccc;
-  display: none;
-  font-size: 50px;
-}
-
-.closeBtn:hover,
-.closeBtn:focus {
-  color: indianred;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: rgba(238, 238, 238, 0.3);
-}
