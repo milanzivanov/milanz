@@ -15,7 +15,8 @@ export class TechnologyComponent implements OnInit {
   };
 
   public chartColors: Array<any> = [
-    { // first color
+    {
+      // first color
       backgroundColor: '#155799',
       borderColor: 'rgba(225,10,24,0.2)',
       pointBackgroundColor: 'rgba(225,10,24,0.2)',
