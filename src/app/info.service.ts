@@ -11,8 +11,6 @@ export class InfoService {
 
   constructor(private _http: HttpClient) { }
 
-
-    // with promise
     async getInfo(): Promise<RootObject[]> {
       return this._http.get(this.url)
                  .map(res => res as RootObject[]).toPromise();

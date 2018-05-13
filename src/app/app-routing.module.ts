@@ -10,7 +10,6 @@ import { TechnologyComponent } from './technology/technology.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MenuComponent } from './menu/menu.component';
 
-
 const routes: Routes = [
   {
     path: '', redirectTo: '/home', pathMatch: 'full'

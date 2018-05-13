@@ -14,7 +14,6 @@ export class ExperienceComponent implements OnInit {
   public stories: RootObject[] = [];
 
   async ngOnInit() {
-    // const temp = await this._getInfo.getInfo();
     const temp = await this._infoStories.getInfo();
     this.stories = temp;
 
