@@ -5,27 +5,7 @@
     "username": "Bret",
     "routerLink": "home",
     "icon": "face",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-
-    "expi": "In Vega IT Sourcing I did professional practice over the course of three weeks. Here I was transferring Photoshop templates in html5 / css3 / jQuery / Responsive / pixel perfect.",
-
-    "phone": "1-770-736-8031 x56442",
-    "website": "",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
+    "expi": "Regards, to introduce myself. My name is Milan and I graduated in graphical engineering and design. I worked in the printing shop Foto oko and there I mastered the knowledge of the prepress and CTP work on printers. Over the time I became interested in making Web sites and I started educating myself in HTML5, CSS3, JS, jQuery, git, SCSS, responsive web layouts, bootstrap, foundation, gulp... which led me to more advanced technology - Angular. Frontend interests me in particular."
   },
   {
     "id": 2,
@@ -33,27 +13,7 @@
     "username": "Antonette",
     "routerLink": "experience",
     "icon": "code",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-
-    "expi": "Oma Adriatic Company. My task was to redesign and semanticaly edit the following company portals: Lilly Intranet, Oma Adriatic Site, Gomex Partnerski B2B(portal no longer exists at that address)Gomex Loyalty B2B(portal no longer exists at that address)Gomex Intranet(portal no longer exists at that address) Kasica Brojalica(portal no longer exists at that address) I also did some graphic design (creation of Omega cards).",
-
-    "phone": "010-692-6593 x09125",
-    "website": "",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
+    "expi": "Vega IT Sourcing here I did professional practice over the course of three weeks. Here I was transferring Photoshop templates in html5 / css3 / jQuery / Responsive / pixel perfect."
   },
   {
     "id": 3,
@@ -61,24 +21,7 @@
     "username": "Kamren",
     "routerLink": "technology",
     "icon": "build",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
-      "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
-      }
-    },
-
-    "phone": "(254)954-1289",
-    "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
-    }
+    "expi": "Oma Adriatic Company. My task was to redesign and semanticaly edit the following company portals: Lilly Intranet, Oma Adriatic Site, Gomex Partnerski B2B(portal no longer exists at that address)Gomex Loyalty B2B(portal no longer exists at that address)Gomex Intranet(portal no longer exists at that address) Kasica Brojalica(portal no longer exists at that address) I also did some graphic design (creation of Omega cards)."
   },
   {
     "id": 4,
@@ -86,27 +29,8 @@
     "username": "Karianne",
     "routerLink": "portfolio",
     "icon": "stars",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-      "street": "Hoeger Mall",
-      "suite": "Apt. 692",
-      "city": "South Elvis",
-      "zipcode": "53919-4257",
-      "geo": {
-        "lat": "29.4572",
-        "lng": "-164.2990"
-      }
-    },
-
     "expi": "I also did some graphic design in the past, you can check it ",
-
-    "phone": "493-170-9623 x156",
-    "website": "http://milanzivanov.wixsite.com/milanzivanov",
-    "company": {
-      "name": "Robel-Corkery",
-      "catchPhrase": "Multi-tiered zero tolerance productivity",
-      "bs": "transition cutting-edge web services"
-    }
+    "website": "http://milanzivanov.wixsite.com/milanzivanov"
   },
   {
     "id": 5,
@@ -114,27 +38,8 @@
     "username": "Samantha",
     "routerLink": "contact",
     "icon": "contact_support",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
-    },
-
     "expi": "HTEC here i worked on verso enterprise aplication link. Fixing bugs, Inserting new pages(html5/css3/angular-material), I have also spent some time working on angularjs...",
-
-    "phone": "1-463-123-4447",
-    "website": "https://verso-stage.htec.co.rs/admin/#/login",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
+    "website": "https://verso-stage.htec.co.rs/admin/#/login"
   }
 ]
 
