@@ -6,4 +6,5 @@ export interface RootObject {
   icon: string;
   expi: string;
   website?: string;
+  workLink?: string;
 }

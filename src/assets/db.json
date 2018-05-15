@@ -2,44 +2,54 @@
   {
     "id": 1,
     "name": "Home",
-    "username": "Bret",
+    "username": "Milan",
     "routerLink": "home",
     "icon": "face",
+    "workLink": "https://milanzivanov.github.io/webadriatic/",
     "expi": "Regards, to introduce myself. My name is Milan and I graduated in graphical engineering and design. I worked in the printing shop Foto oko and there I mastered the knowledge of the prepress and CTP work on printers. Over the time I became interested in making Web sites and I started educating myself in HTML5, CSS3, JS, jQuery, git, SCSS, responsive web layouts, bootstrap, foundation, gulp... which led me to more advanced technology - Angular. Frontend interests me in particular."
   },
   {
     "id": 2,
     "name": "Experience",
-    "username": "Antonette",
+    "username": "Vega it Sourcing",
     "routerLink": "experience",
     "icon": "code",
+    "workLink": "https://milanzivanov.github.io/milandarius/",
     "expi": "Vega IT Sourcing here I did professional practice over the course of three weeks. Here I was transferring Photoshop templates in html5 / css3 / jQuery / Responsive / pixel perfect."
   },
   {
     "id": 3,
     "name": "Technology",
-    "username": "Kamren",
+    "username": "Oma Adriatic",
     "routerLink": "technology",
     "icon": "build",
+    "workLink": "https://black-and-white-hospital.surge.sh/",
     "expi": "Oma Adriatic Company. My task was to redesign and semanticaly edit the following company portals: Lilly Intranet, Oma Adriatic Site, Gomex Partnerski B2B(portal no longer exists at that address)Gomex Loyalty B2B(portal no longer exists at that address)Gomex Intranet(portal no longer exists at that address) Kasica Brojalica(portal no longer exists at that address) I also did some graphic design (creation of Omega cards)."
   },
   {
     "id": 4,
     "name": "Portfolio",
-    "username": "Karianne",
+    "username": "Graphic Design",
     "routerLink": "portfolio",
     "icon": "stars",
+    "workLink": "http://hideous-news.surge.sh/",
     "expi": "I also did some graphic design in the past, you can check it ",
     "website": "http://milanzivanov.wixsite.com/milanzivanov"
   },
   {
     "id": 5,
     "name": "Contact",
-    "username": "Samantha",
+    "username": "qa task",
     "routerLink": "contact",
     "icon": "contact_support",
+    "workLink": "http://righteous-bee.surge.sh/",
     "expi": "HTEC here i worked on verso enterprise aplication link. Fixing bugs, Inserting new pages(html5/css3/angular-material), I have also spent some time working on angularjs...",
     "website": "https://verso-stage.htec.co.rs/admin/#/login"
+  },
+  {
+    "id": 6,
+    "username": "execome task",
+    "workLink": "http://simplistic-size.surge.sh/"
   }
 ]
 

@@ -8,7 +8,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 # Tasks to do
 
-  - Modal to fix
   - Responsive
   - back button...
 

@@ -1,4 +1,6 @@
+import { InfoService } from './../info.service';
 import { Component, OnInit } from '@angular/core';
+import { RootObject } from '../interfaceInfo';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  workLinks: RootObject[] = [];
 
-  ngOnInit() {
+  constructor(private _getInfo: InfoService) { }
+
+  async ngOnInit() {
+    const temp = await this._getInfo.getInfo();
+    this.workLinks = temp;
+    console.log(123);
+    console.log(this.workLinks);
   }
 
 }
