@@ -1,8 +1,10 @@
+
+import {map} from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { RootObject } from './interfaceInfo';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+
 
 @Injectable()
 export class InfoService {
@@ -12,8 +14,8 @@ export class InfoService {
   constructor(private _http: HttpClient) { }
 
     async getInfo(): Promise<RootObject[]> {
-      return this._http.get(this.url)
-                 .map(res => res as RootObject[]).toPromise();
+      return this._http.get(this.url).pipe(
+                 map(res => res as RootObject[])).toPromise();
     }
 
 }

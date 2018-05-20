@@ -32,7 +32,8 @@
     "username": "Graphic Design",
     "routerLink": "portfolio",
     "icon": "stars",
-    "workLink": "http://hideous-news.surge.sh/",
+    "workLink": [ "https://verso-stage.htec.co.rs/admin/#/login", "https://verso-stage.htec.co.rs/admin/#/login", "https://verso-stage.htec.co.rs/admin/#/login"
+    ],
     "expi": "I also did some graphic design in the past, you can check it ",
     "website": "http://milanzivanov.wixsite.com/milanzivanov"
   },
@@ -42,14 +43,8 @@
     "username": "qa task",
     "routerLink": "contact",
     "icon": "contact_support",
-    "workLink": "http://righteous-bee.surge.sh/",
     "expi": "HTEC here i worked on verso enterprise aplication link. Fixing bugs, Inserting new pages(html5/css3/angular-material), I have also spent some time working on angularjs...",
     "website": "https://verso-stage.htec.co.rs/admin/#/login"
-  },
-  {
-    "id": 6,
-    "username": "execome task",
-    "workLink": "http://simplistic-size.surge.sh/"
   }
 ]
 

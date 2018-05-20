@@ -1,5 +1,5 @@
 export interface RootObject {
-  id: number;
+  id?: number;
   name: string;
   username: string;
   routerLink: string;
