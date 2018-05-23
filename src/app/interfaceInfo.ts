@@ -1,10 +1,15 @@
 export interface RootObject {
-  id?: number;
+  id: number;
   name: string;
   username: string;
   routerLink: string;
   icon: string;
   expi: string;
+  workLinks?: Link[];
   website?: string;
-  workLink?: string;
+}
+
+export interface Link {
+  link: string;
+  name: string;
 }

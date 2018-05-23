@@ -9,15 +9,15 @@ import { RootObject } from '../interfaceInfo';
 })
 export class PortfolioComponent implements OnInit {
 
-  workLinks: RootObject[] = [];
+  public works: RootObject[] = null;
 
   constructor(private _getInfo: InfoService) { }
 
   async ngOnInit() {
     const temp = await this._getInfo.getInfo();
-    this.workLinks = temp;
+    this.works = temp;
     console.log(123);
-    console.log(this.workLinks);
+    console.log(this.works);
   }
 
 }

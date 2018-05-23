@@ -5,7 +5,6 @@
     "username": "Milan",
     "routerLink": "home",
     "icon": "face",
-    "workLink": "https://milanzivanov.github.io/webadriatic/",
     "expi": "Regards, to introduce myself. My name is Milan and I graduated in graphical engineering and design. I worked in the printing shop Foto oko and there I mastered the knowledge of the prepress and CTP work on printers. Over the time I became interested in making Web sites and I started educating myself in HTML5, CSS3, JS, jQuery, git, SCSS, responsive web layouts, bootstrap, foundation, gulp... which led me to more advanced technology - Angular. Frontend interests me in particular."
   },
   {
@@ -14,7 +13,6 @@
     "username": "Vega it Sourcing",
     "routerLink": "experience",
     "icon": "code",
-    "workLink": "https://milanzivanov.github.io/milandarius/",
     "expi": "Vega IT Sourcing here I did professional practice over the course of three weeks. Here I was transferring Photoshop templates in html5 / css3 / jQuery / Responsive / pixel perfect."
   },
   {
@@ -23,7 +21,6 @@
     "username": "Oma Adriatic",
     "routerLink": "technology",
     "icon": "build",
-    "workLink": "https://black-and-white-hospital.surge.sh/",
     "expi": "Oma Adriatic Company. My task was to redesign and semanticaly edit the following company portals: Lilly Intranet, Oma Adriatic Site, Gomex Partnerski B2B(portal no longer exists at that address)Gomex Loyalty B2B(portal no longer exists at that address)Gomex Intranet(portal no longer exists at that address) Kasica Brojalica(portal no longer exists at that address) I also did some graphic design (creation of Omega cards)."
   },
   {
@@ -32,7 +29,18 @@
     "username": "Graphic Design",
     "routerLink": "portfolio",
     "icon": "stars",
-    "workLink": [ "https://verso-stage.htec.co.rs/admin/#/login", "https://verso-stage.htec.co.rs/admin/#/login", "https://verso-stage.htec.co.rs/admin/#/login"
+    "workLinks": [ {"link":"https://milanzivanov.github.io/webadriatic/",
+                    "name": "omaadriatic"},
+                   {"link": "https://milanzivanov.github.io/milandarius/",
+                    "name": "milandarius"},
+                   {"link": "https://milanzivanov.github.io/milandarius/",
+                    "name": "milandarius1"},
+                   {"link": "https://milanzivanov.github.io/milandarius/",
+                    "name": "milandarius2"},
+                   {"link": "https://milanzivanov.github.io/milandarius/",
+                    "name": "milandarius3"},
+                   {"link": "https://milanzivanov.github.io/milandarius/",
+                    "name": "milandarius7"}
     ],
     "expi": "I also did some graphic design in the past, you can check it ",
     "website": "http://milanzivanov.wixsite.com/milanzivanov"
