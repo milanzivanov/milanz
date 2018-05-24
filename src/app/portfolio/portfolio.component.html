@@ -9,13 +9,15 @@
 
     <div>
       <ul>
-        <li *ngFor="let work of works">
-          <!-- <a *ngFor="let link of work.workLinks" href="{{link}}"> {{i+1}} Link work</a> -->
-          <a class="box"
-             *ngFor="let link of work.workLinks; index as i" href="{{link.link}}" >
-             {{i+1}} - {{link.name}}
-          </a>
-        </li>
+          <ng-container *ngFor="let work of works">
+            <li *ngIf="work.workLinks && work.workLinks.length > 0">
+              <!-- <a *ngFor="let link of work.workLinks" href="{{link}}"> {{i+1}} Link work</a> -->
+              <a class="box"
+                 *ngFor="let link of work.workLinks; index as i" href="{{link.link}}" >
+                 {{i+1}} - {{link.name}}
+              </a>
+            </li>
+          </ng-container>
       </ul>
     </div>
   </div>
