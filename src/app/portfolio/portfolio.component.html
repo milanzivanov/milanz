@@ -4,22 +4,19 @@
 <section class="container">
   <div class="wrapper">
     <p>
-      My work and tasks... that I made...
-      <br>This page is in designing fase... ( :
+      My work and tasks... that I made... still in progress ( :
     </p>
 
     <div>
       <ul>
         <li *ngFor="let work of works">
           <!-- <a *ngFor="let link of work.workLinks" href="{{link}}"> {{i+1}} Link work</a> -->
-          <a *ngFor="let link of work.workLinks; index as i" href="{{link.link}}"> {{i+1}} {{link.name}}</a>
+          <a class="box"
+             *ngFor="let link of work.workLinks; index as i" href="{{link.link}}" >
+             {{i+1}} - {{link.name}}
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </section>
-
-<!-- "https://black-and-white-hospital.surge.sh/",
-"https://verso-stage.htec.co.rs/admin/#/login",
-"https://verso-stage.htec.co.rs/admin/#/login",
-"https://verso-stage.htec.co.rs/admin/#/login" -->
