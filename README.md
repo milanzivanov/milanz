@@ -13,4 +13,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 
 ## In Progress
-[Link preview in progress](http://humorous-way.surge.sh/)
+[Link preview in progress](http://milanzivanovcv.surge.sh/)

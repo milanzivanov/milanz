@@ -49,9 +49,13 @@ wider_container {
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
   &:hover {
     color: #f8d902;
     background: black;
+  }
+  &:hover > .move {
+    animation: move 1s infinite ease-in-out;
   }
 }
 
@@ -79,3 +83,15 @@ wider_container {
 
 .material-icons.md-48 { font-size: 48px; }
 
+// animation move
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+}
