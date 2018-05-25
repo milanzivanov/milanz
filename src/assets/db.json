@@ -29,32 +29,59 @@
     "username": "Graphic Design",
     "routerLink": "portfolio",
     "icon": "stars",
-    "workLinks": [ {"link":"https://milanzivanov.github.io/webadriatic/",
-                    "name": "oma-adriatic"},
-                   {"link": "https://milanzivanov.github.io/milandarius/",
-                    "name": "scss-advance"},
-                   {"link": "https://http://righteous-bee.surge.sh/",
-                    "name": "Air Trafic App"},
-                   {"link": "https://verso-stage.htec.co.rs/admin/#/login",
-                    "name": "verso"},
-                   {"link": "https://http://hideous-news.surge.sh/",
-                    "name": "Weather App"},
-                   {"link": "https://black-and-white-hospital.surge.sh/",
-                    "name": "Hacker News Clone"},
-                   {"link": "https://milanzivanov.github.io/milanzivanovcv-v2/",
-                    "name": "My CV"},
-                   {"link": "https://careless-birds.surge.sh/",
-                    "name": "Cities of East Serbia"},
-                   {"link": "https://bitter-doctor.surge.sh/",
-                    "name": "Spa template"},
-                   {"link": "http://simplistic-size.surge.sh/",
-                    "name": "Weather App Two"},
-                   {"link": "https://callous-playground.surge.sh/",
-                    "name": "Joke App"},
-                   {"link": "https://furry-color.surge.sh/",
-                    "name": "Scroll Slider"},
-                   {"link": "https://github.com/milanzivanov?tab=repositories",
-                    "name": "More..."}
+    "workLinks": [
+      {
+        "link":"https://milanzivanov.github.io/webadriatic/",
+        "name": "Oma-Adriatic site"
+      },
+      {
+        "link": "https://milanzivanov.github.io/milandarius/",
+        "name": "Scss-advance site"
+      },
+      {
+        "link": "https://righteous-bee.surge.sh/",
+        "name": "Air Trafic App"
+      },
+      {
+        "link": "https://verso-stage.htec.co.rs/admin/#/login",
+        "name": "Verso Enterprise"
+      },
+      {
+        "link": "https://hideous-news.surge.sh/",
+        "name": "Weather App"
+      },
+      {
+        "link": "https://black-and-white-hospital.surge.sh/",
+        "name": "Hacker News Clone"
+      },
+      {
+        "link": "https://milanzivanov.github.io/milanzivanovcv-v2/",
+        "name": "My CV"
+      },
+      {
+        "link": "https://careless-birds.surge.sh/",
+        "name": "Cities of East Serbia"
+      },
+      {
+        "link": "https://bitter-doctor.surge.sh/",
+        "name": "Spa template"
+      },
+      {
+        "link": "http://simplistic-size.surge.sh/",
+        "name": "Weather App Two"
+      },
+      {
+        "link": "https://callous-playground.surge.sh/",
+        "name": "Joke App"
+      },
+      {
+        "link": "https://furry-color.surge.sh/",
+        "name": "Scroll Slider"
+      },
+      {
+        "link": "https://github.com/milanzivanov?tab=repositories",
+        "name": "More..."
+      }
     ],
     "expi": "I also did some graphic design in the past, you can check it ",
     "website": "http://milanzivanov.wixsite.com/milanzivanov"
