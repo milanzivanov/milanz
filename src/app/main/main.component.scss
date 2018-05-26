@@ -1,6 +1,7 @@
 section#main {
   background-color: #222;
-  background-image: url(../../assets/bg.jpeg);
+  // background-image: url(../../assets/bg.jpeg);
+  background-image: url(../../assets/main-cover2.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: calc(100vh - 96px);
@@ -52,6 +53,8 @@ wider_container {
   overflow: hidden;
   &:hover {
     color: #f8d902;
+    color: #ffd731;
+    // color: #155799;
     background: black;
   }
   &:hover > .move {
