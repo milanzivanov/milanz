@@ -54,3 +54,33 @@ a {
   text-decoration: none;
   color: #155799;
 }
+
+.box-data {
+  display: flex;
+  align-items: center;
+  color: #145799;
+}
+
+// hover border
+.cool-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #145799;
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
