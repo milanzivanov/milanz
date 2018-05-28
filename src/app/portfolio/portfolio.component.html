@@ -13,7 +13,7 @@
               <!-- <a *ngFor="let link of work.workLinks" href="{{link}}"> {{i+1}} Link work</a> -->
               <a class="box"
                  *ngFor="let link of work.workLinks; index as i" href="{{link.link}}" >
-                 {{i+1}} - {{link.name}}
+                 <i class="material-icons">link</i>&nbsp;- {{link.name}}
               </a>
             </li>
           </ng-container>

@@ -41,6 +41,8 @@ li {
   background-color: #eee;
   margin: 5px;
   transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
   cursor: pointer;
   &:hover {
     background-color: #C0C0C0;
