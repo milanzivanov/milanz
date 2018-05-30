@@ -10,7 +10,6 @@
       <ul>
           <ng-container *ngFor="let work of works">
             <li *ngIf="work.workLinks && work.workLinks.length > 0">
-              <!-- <a *ngFor="let link of work.workLinks" href="{{link}}"> {{i+1}} Link work</a> -->
               <a class="box cool-link"
                  *ngFor="let link of work.workLinks; index as i" href="{{link.link}}">
                  <div class="box-data">
