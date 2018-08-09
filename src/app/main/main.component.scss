@@ -1,87 +1,124 @@
 section#main {
   background-color: #222;
-  // background-image: url(../../assets/bg.jpeg);
-  background-image: url(../../assets/main-cover2.svg);
-  background-position: center;
-  background-repeat: no-repeat;
   height: calc(100vh - 96px);
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: calc(100vh - 96px);
+    animation: animate 30s linear infinite;
 
-  position: absolute;
-  top: 95px;
-  right: 0;
-  left: 0;
+    .slide {
+      position: relative;
+      width: 25%;
+      height: 100%;
+      float: left;
+    }
+
+    .slide1 {
+      background-image: url("../../assets/main-cover2.svg");
+      background-size: cover;
+      background-position: center;
+    }
+    .slide2 {
+      background-image: url("../../assets/main-cover3.svg");
+      background-size: cover;
+      background-position: center;
+    }
+    .slide3 {
+      background-image: url("../../assets/main-cover4.svg");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+
+#main:hover .slider {
+  transition: opacity .5s;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
 }
 
 wider_container {
   width: 85%;
 }
 
-.container {
-  max-width: 42rem;
-  margin: auto;
-}
-
 .main {
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
   z-index: 15;
 }
 
-.cta {
-  display: inline-block;
-  background: #eee;
-  color: black;
-  text-decoration: none;
-  font-size: 30px;
-  text-transform: uppercase;
-  padding: 0.4em;
-  transition: all 100ms ease-in-out;
-  cursor: pointer;
-  background-color: #fff;
+.modal-content {
+  position: fixed;
+  z-index: 16;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'ns', 'Montserrat', sans-serif;
-  overflow: hidden;
-  &:hover {
-    color: #f8d902;
-    color: #ffd731;
-    color: #155799;;
+  width: 100%;
+  height: 100%;
+
+  .modal-content_center {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .cta {
+    display: inline-block;
+    background: #eee;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0.4em;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ns', 'Montserrat', sans-serif;
+    overflow: hidden;
+    &:hover {
+      color: #f8d902;
+      color: #ffd731;
+      color: #155799;;
+      background: black;
+    }
+    &:hover > .move {
+      animation: move 1s infinite ease-in-out;
+    }
+  }
+
+  .cta:hover ~ h1 span {
+    color: black;
+    background: #fff;
+  }
+
+  h1 {
+    font-family: 'ns', 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    order: -1;
+    padding: 0 0 2px 0;
+  }
+
+  h1 span {
+    color: #eee;
+    display: inline-block;
     background: black;
+    margin-bottom: 5px;
+    padding: 0 0.2em;
+    transition: all 100ms ease-in-out;
   }
-  &:hover > .move {
-    animation: move 1s infinite ease-in-out;
-  }
-}
-
-.cta:hover ~ h1 span {
-  color: black;
-  background: #fff;
-}
-
-.main h1 {
-  font-family: 'ns', 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-size: 60px;
-  order: -1;
-  padding: 0 0 2px 0;
-}
-
-.main h1 span {
-  color: #eee;
-  display: inline-block;
-  background: black;
-  margin-bottom: 5px;
-  padding: 0 0.2em;
-  transition: all 100ms ease-in-out;
 }
 
 .material-icons.md-48 { font-size: 48px; }
@@ -96,5 +133,36 @@ wider_container {
   }
   100% {
     transform: translateX(50px);
+  }
+}
+
+// image slider animate
+@keyframes animate {
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  100% {
+      left: -300%;
   }
 }
