@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="630 -390 1280 800" style="enable-background:new 630 -390 1280 800;" xml:space="preserve">
+	 viewBox="0 0 1280 800" style="enable-background:new 0 0 1280 800;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#97D1FF;}
-	.st1{fill:#155790;}
-	.st2{fill:#159957;}
-	.st3{fill:#159960;}
-	.st4{fill:#FFFFFF;}
-	.st5{fill:none;}
-	.st6{fill:#155799;}
+	.st0{fill:#155799;}
+	.st1{fill:#159957;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FFFFFF;stroke:#0C0109;stroke-miterlimit:10;}
+	.st4{fill:#FF0000;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:#8CC63F;}
+	.st6{fill:#3F4FE8;}
+	.st7{fill:#97D1FF;}
+	.st8{fill:#155790;}
+	.st9{fill:#18A058;}
 </style>
-<polygon id="XMLID_8_" class="st0" points="897,-112.2 897,411 1402.6,410 "/>
-<polygon id="XMLID_7_" class="st0" points="1678.6,-107.4 1678,410 1448.2,174.1 "/>
-<polygon id="XMLID_6_" class="st0" points="898.8,-390 1301.7,28.2 1628,-390 "/>
-<polygon id="XMLID_4_" class="st1" points="1679,-390 1678,410 1910,410 1910,-390 "/>
-<polygon id="XMLID_3_" class="st2" points="913.1,410 1628,-390 1910,-390 1255.1,410 "/>
-<polygon id="XMLID_1_" class="st3" points="630,-390 897,-390 897,411 629,411 "/>
-<polygon id="XMLID_2_" class="st1" points="629,-389 898.8,-390 1678,410 1402.6,410 "/>
-<polygon id="XMLID_9_" class="st4" points="981.3,149.5 912,80.2 912,219.4 "/>
-<polygon id="XMLID_11_" class="st4" points="1569,159.7 1657,248.2 1656.4,51.2 "/>
-<polygon id="XMLID_13_" class="st4" points="1194.2,-327 1277.8,-240.6 1357.4,-327 "/>
-<rect id="XMLID_5_" x="217" y="-747" class="st5" width="392" height="112"/>
-<text id="XMLID_10_" transform="matrix(1 0 0 1 217 -720.7305)" class="st6" style="font-family:'MyriadPro-Regular'; font-size:37px;">#155799, #159957</text>
-<rect id="XMLID_12_" x="217" y="-666.4" class="st6" width="106.6" height="117"/>
-<rect id="XMLID_15_" x="388" y="-666.4" class="st2" width="106.6" height="117"/>
+<rect id="XMLID_10_" x="-413" y="-357" style="fill:none;" width="584" height="112"/>
+<text id="XMLID_5_" transform="matrix(1 0 0 1 -413 -330.7305)"><tspan x="0" y="0" class="st0" style="font-family:'MyriadPro-Regular'; font-size:37px;">#155799, #159957, </tspan><tspan x="295.5" y="0" class="st9" style="font-family:'MyriadPro-Regular'; font-size:37px;"> #18a058</tspan></text>
+<rect id="XMLID_12_" x="-413" y="-276.4" class="st0" width="106.6" height="117"/>
+<rect id="XMLID_15_" x="-242" y="-276.4" class="st1" width="106.6" height="117"/>
+<rect id="XMLID_14_" x="317.6" y="-283.9" class="st2" width="153" height="153"/>
+<rect id="XMLID_16_" x="350.5" y="-252.5" class="st3" width="82" height="86"/>
+<polygon id="XMLID_20_" class="st4" points="360.5,-192 360.5,-173.5 422,-173.5 "/>
+<polygon id="XMLID_18_" class="st5" points="384,-240 360,-240 384,-223 "/>
+<polygon id="XMLID_19_" class="st6" points="394,-240 422,-240 394,-216.3 "/>
+<rect id="XMLID_37_" x="-19" y="1" class="st7" width="1300" height="799"/>
+<polygon id="XMLID_35_" class="st1" points="991,800 282,0 0,1 0,278 227.6,278 691,800 "/>
+<polygon id="XMLID_23_" class="st8" points="1281,1 1011.3,0 232,800 507.4,800 "/>
+<polygon id="XMLID_22_" class="st9" points="280.1,0 528.4,278 -4,278 -4,1 "/>
+<rect id="XMLID_32_" x="-1476" class="st7" width="1287.7" height="799"/>
+<polygon id="XMLID_31_" class="st1" points="-1186,799 -477,-1 -195,0 -195,277 -422.6,277 -886,799 "/>
+<polygon id="XMLID_28_" class="st0" points="-1475,-1 -1208,-1 -1208,800 -1476,800 "/>
+<polygon id="XMLID_21_" class="st8" points="-1476,0 -1206.3,-1 -427,799 -702.4,799 "/>
+<rect id="XMLID_13_" x="-1054.4" y="-283.9" class="st2" width="153" height="153"/>
+<rect id="XMLID_39_" x="1373" y="1" class="st7" width="1301" height="799"/>
+<polygon id="XMLID_36_" class="st8" points="2384,800 1675,0 1393,1 1393,278 1620.6,278 2084,800 "/>
+<polygon id="XMLID_27_" class="st1" points="2674,1 2404.3,0 1625,800 1900.4,800 "/>
+<polygon id="XMLID_24_" class="st0" points="1675,0 1921.4,278 1393,278 1393,1 "/>
+<polygon id="XMLID_9_" class="st9" points="-477,-1 -723.4,277 -195,277 -195,0 "/>
+<rect id="XMLID_7_" x="-37" y="-276.4" class="st9" width="142" height="133.4"/>
+<polygon id="XMLID_26_" class="st0" points="1281,0 1013,0 740.5,278 1281,278 "/>
+<polygon id="XMLID_2_" class="st9" points="2404,1 2674,1 2674,802 2403,802 "/>
 </svg>
