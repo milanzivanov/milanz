@@ -27,7 +27,9 @@
 </header>
 
 <app-menu [@slideInOut]="menuState"
-          (selected)="selectedPage=$event">
+          (selected)="selectedPage=$event"
+          *ngIf="visible"
+          (click)="toggleMenu()">
 </app-menu>
 
 <main class="main">

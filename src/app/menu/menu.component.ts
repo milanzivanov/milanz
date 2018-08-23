@@ -10,6 +10,7 @@ import { RootObject } from './../interfaceInfo';
 export class MenuComponent implements OnInit {
 
   public users: RootObject[] = [];
+  visible: boolean;
 
   // Output
   @Output() public selected = new EventEmitter<RootObject>();

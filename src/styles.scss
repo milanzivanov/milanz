@@ -11,23 +11,22 @@
   font-style: normal;
 }
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
+html,
 body {
-  height: calc(100vh - 96px);
+  box-sizing: border-box;
+  font-size: 16px;
   font-family: 'Montserrat',
                'Open Sans',
                'Roboto',
                'Lato',
                sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 // loading animation
@@ -70,8 +69,6 @@ body {
 // page wrapper
 section.container {
   width: 100%;
-  float: left;
-  position: relative;
   top: 400px;
   overflow: hidden;
 }

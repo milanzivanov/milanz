@@ -4,7 +4,6 @@ section#main {
   position: relative;
   overflow: hidden;
   width: 100%;
-  cursor: pointer;
 
   .slider {
     position: absolute;
@@ -12,7 +11,7 @@ section#main {
     left: 0;
     width: 400%;
     height: calc(100vh - 96px);
-    animation: animate 30s linear infinite;
+    animation: animate 50s linear infinite;
 
     .slide {
       position: relative;
@@ -25,16 +24,19 @@ section#main {
       background-image: url("../../assets/main-cover2.svg");
       background-size: cover;
       background-position: center;
+      transform: translate3d(0, 0, 0);
     }
     .slide2 {
       background-image: url("../../assets/main-cover3.svg");
       background-size: cover;
       background-position: center;
+      transform: translate3d(0, 0, 0);
     }
     .slide3 {
       background-image: url("../../assets/main-cover4.svg");
       background-size: cover;
       background-position: center;
+      transform: translate3d(0, 0, 0);
     }
   }
 }
@@ -45,7 +47,6 @@ section#main {
   -moz-animation-play-state: paused;
   -o-animation-play-state: paused;
   animation-play-state: paused;
-  cursor: pointer;
 }
 
 wider_container {
@@ -140,29 +141,39 @@ wider_container {
 @keyframes animate {
   0% {
       left: 0;
+      // transform: translateX(0);
   }
   20% {
       left: 0;
+      // transform: translateX(0);
   }
   25% {
       left: -100%;
+      // transform: translateX(-100%);
   }
   45% {
       left: -100%;
+      // transform: translateX(-100%);
   }
   45% {
       left: -100%;
+      // transform: translateX(-100%);
   }
   50% {
       left: -200%;
+      // transform: translateX(-200%);
   }
   70% {
       left: -200%;
+      // transform: translateX(-200%);
   }
   75% {
       left: -300%;
+      // transform: translateX(-300%);
   }
   100% {
       left: -300%;
+      // transform: translateX(-300%);
   }
+
 }

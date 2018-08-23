@@ -9,14 +9,16 @@
     <div>
       <ul>
           <ng-container *ngFor="let work of works">
-            <li *ngIf="work.workLinks && work.workLinks.length > 0">
-              <a class="box cool-link"
-                 *ngFor="let link of work.workLinks; index as i" href="{{link.link}}">
-                 <div class="box-data">
-                   <i class="material-icons">link</i>&nbsp;- {{link.name}}
-                 </div>
-              </a>
-            </li>
+              <ng-container *ngIf="work.workLinks && work.workLinks.length > 0">
+                <li *ngFor="let link of work.workLinks; index as i">
+                  <a class="box cool-link"
+                     href="{{link.link}}">
+                     <div class="box-data">
+                       <i class="material-icons">link</i>&nbsp;- {{link.name}}
+                     </div>
+                  </a>
+                </li>
+              </ng-container>
           </ng-container>
       </ul>
     </div>
