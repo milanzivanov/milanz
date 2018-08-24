@@ -39,6 +39,12 @@ section#main {
       transform: translate3d(0, 0, 0);
     }
   }
+
+  @media only screen and (min-width: 120px) and (max-width : 767px) {
+    .slider {
+      animation: none;
+    }
+  }
 }
 
 #main:hover .slider {
@@ -104,6 +110,12 @@ wider_container {
     background: #fff;
   }
 
+  @media only screen and (min-width: 120px) and (max-width : 767px) {
+    .cta {
+      font-size: 17px;
+    }
+  }
+
   h1 {
     font-family: 'ns', 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -111,6 +123,13 @@ wider_container {
     order: -1;
     padding: 0 0 2px 0;
   }
+
+  @media only screen and (min-width: 120px) and (max-width : 767px) {
+    h1 {
+      font-size: 33px;
+    }
+  }
+
 
   h1 span {
     color: #eee;

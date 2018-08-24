@@ -12,7 +12,13 @@
   z-index: 19;
 }
 
-// .menu-container {}
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  :host {
+    top: 95px;
+    bottom: auto;
+    width: 100%;
+  }
+}
 
 ul {
   font-size: 18px;

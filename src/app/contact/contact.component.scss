@@ -26,6 +26,12 @@ p {
   }
 }
 
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 a {
   color: #155799;
   cursor: pointer;
@@ -48,11 +54,23 @@ a {
   font-family: 'ns';
 }
 
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  .name {
+    font-size: 1.5rem;
+  }
+}
+
 span.title {
   font-weight: 500; }
 
 .contact {
   font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  .contact {
+    font-size: 1rem;
+  }
 }
 
 .contact a {
