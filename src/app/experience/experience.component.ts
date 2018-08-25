@@ -17,7 +17,7 @@ export class ExperienceComponent implements OnInit {
     const temp = await this._infoStories.getInfo();
     this.stories = temp;
 
-    console.log(this.stories);
+    // console.log(this.stories);
 
   }
 

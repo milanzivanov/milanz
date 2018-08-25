@@ -16,7 +16,7 @@ export class PortfolioComponent implements OnInit {
   async ngOnInit() {
     const temp = await this._getInfo.getInfo();
     this.works = temp;
-    console.log(this.works);
+    // console.log(this.works);
   }
 
 }

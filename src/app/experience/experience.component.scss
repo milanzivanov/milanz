@@ -7,6 +7,12 @@ section#experience {
   background-size: cover;
 }
 
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  section#experience {
+    height: 300px;
+  }
+}
+
 .companies {
   background-color: #fff;
   display: flex;

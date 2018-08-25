@@ -7,6 +7,12 @@ section#portfolio {
   background-size: cover;
 }
 
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  section#portfolio {
+    height: 300px;
+  }
+}
+
 .wrapper {
   padding: 10px 0;
 }

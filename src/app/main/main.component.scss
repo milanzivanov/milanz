@@ -5,6 +5,8 @@ section#main {
   overflow: hidden;
   width: 100%;
 
+
+
   .slider {
     position: absolute;
     top: 0;
@@ -42,10 +44,20 @@ section#main {
 
   @media only screen and (min-width: 120px) and (max-width : 767px) {
     .slider {
+      display: none;
       animation: none;
     }
   }
 }
+
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  section#main {
+    background-image: url("../../assets/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 
 #main:hover .slider {
   transition: opacity .5s;
@@ -138,6 +150,12 @@ wider_container {
     margin-bottom: 5px;
     padding: 0 0.2em;
     transition: all 100ms ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 120px) and (max-width : 767px) {
+  .modal-content h1 span {
+    padding: 5px 5px 0 5px;
   }
 }
 
