@@ -14,30 +14,31 @@
 	.st8{fill:#155790;}
 	.st9{fill:#18A058;}
 </style>
-<rect id="XMLID_10_" x="-413" y="-357" style="fill:none;" width="584" height="112"/>
-<text id="XMLID_5_" transform="matrix(1 0 0 1 -413 -330.7305)"><tspan x="0" y="0" class="st0" style="font-family:'MyriadPro-Regular'; font-size:37px;">#155799, #159957, </tspan><tspan x="295.5" y="0" class="st9" style="font-family:'MyriadPro-Regular'; font-size:37px;"> #18a058</tspan></text>
-<rect id="XMLID_12_" x="-413" y="-276.4" class="st0" width="106.6" height="117"/>
-<rect id="XMLID_15_" x="-242" y="-276.4" class="st1" width="106.6" height="117"/>
-<rect id="XMLID_14_" x="317.6" y="-283.9" class="st2" width="153" height="153"/>
-<rect id="XMLID_16_" x="350.5" y="-252.5" class="st3" width="82" height="86"/>
-<polygon id="XMLID_20_" class="st4" points="360.5,-192 360.5,-173.5 422,-173.5 "/>
-<polygon id="XMLID_18_" class="st5" points="384,-240 360,-240 384,-223 "/>
-<polygon id="XMLID_19_" class="st6" points="394,-240 422,-240 394,-216.3 "/>
-<rect id="XMLID_37_" x="-11" y="1113" class="st7" width="1300" height="799"/>
-<polygon id="XMLID_35_" class="st1" points="999,1912 290,1112 8,1113 8,1390 235.6,1390 699,1912 "/>
-<polygon id="XMLID_23_" class="st8" points="1289,1113 1019.3,1112 240,1912 515.4,1912 "/>
-<polygon id="XMLID_22_" class="st9" points="290,1112 536.4,1390 8,1390 8,1113 "/>
-<rect id="XMLID_32_" y="1" class="st7" width="1287.7" height="799"/>
-<polygon id="XMLID_31_" class="st1" points="290,800 999,0 1281,1 1281,278 1053.4,278 590,800 "/>
-<polygon id="XMLID_28_" class="st0" points="1,0 268,0 268,801 0,801 "/>
-<polygon id="XMLID_21_" class="st8" points="0,1 269.8,0 1049,800 773.6,800 "/>
-<rect id="XMLID_13_" x="-1054.4" y="-283.9" class="st2" width="153" height="153"/>
-<rect id="XMLID_39_" x="1373" y="1" class="st7" width="1301" height="799"/>
-<polygon id="XMLID_36_" class="st8" points="2384,800 1675,0 1393,1 1393,278 1620.6,278 2084,800 "/>
-<polygon id="XMLID_27_" class="st1" points="2674,1 2404.3,0 1625,800 1900.4,800 "/>
-<polygon id="XMLID_24_" class="st0" points="1675,0 1921.4,278 1393,278 1393,1 "/>
-<polygon id="XMLID_9_" class="st9" points="999,0 752.6,278 1281,278 1281,1 "/>
-<rect id="XMLID_7_" x="-37" y="-276.4" class="st9" width="142" height="133.4"/>
-<polygon id="XMLID_26_" class="st0" points="1289,1112 1021,1112 748.5,1390 1289,1390 "/>
-<polygon id="XMLID_2_" class="st9" points="2404,1 2674,1 2674,802 2403,802 "/>
+<rect id="XMLID_184_" x="-413" y="-357" style="fill:none;" width="584" height="112"/>
+<text id="XMLID_185_" transform="matrix(1 0 0 1 -413 -330.7305)"><tspan x="0" y="0" class="st0" style="font-family:'MyriadPro-Regular'; font-size:37px;">#155799, #159957, </tspan><tspan x="295.5" y="0" class="st9" style="font-family:'MyriadPro-Regular'; font-size:37px;"> #18a058</tspan></text>
+<rect id="XMLID_186_" x="-413" y="-276" class="st0" width="107" height="117"/>
+<rect id="XMLID_187_" x="-242" y="-276" class="st1" width="107" height="117"/>
+<rect id="XMLID_188_" x="318" y="-284" class="st2" width="153" height="153"/>
+<rect id="XMLID_189_" x="350.5" y="-252.5" class="st3" width="82" height="86"/>
+<polygon id="XMLID_190_" class="st4" points="360.5,-192 360.5,-173.5 422,-173.5 "/>
+<polygon id="XMLID_191_" class="st5" points="384,-240 360,-240 384,-223 "/>
+<polygon id="XMLID_192_" class="st6" points="394,-240 422,-240 394,-216.3 "/>
+<rect id="XMLID_194_" x="-1490" y="931" class="st7" width="1300" height="799"/>
+<polygon id="XMLID_195_" class="st1" points="-480,1730 -1189,930 -1471,931 -1471,1208 -1243.4,1208 -780,1730 "/>
+<polygon id="XMLID_196_" class="st8" points="-190,931 -459.8,930 -1239,1730 -963.6,1730 "/>
+<polygon id="XMLID_197_" class="st9" points="-1190.9,930 -942.6,1208 -1475,1208 -1475,931 "/>
+<rect id="XMLID_198_" y="1" class="st7" width="1288" height="799"/>
+<polygon id="XMLID_199_" class="st1" points="290,800 999,0 1281,1 1281,278 1053.4,278 590,800 "/>
+<polygon id="XMLID_200_" class="st0" points="1,0 268,0 268,801 0,801 "/>
+<rect id="XMLID_202_" x="-1054" y="-284" class="st2" width="153" height="153"/>
+<rect id="XMLID_204_" x="1500" y="3" class="st7" width="1301" height="799"/>
+<polygon id="XMLID_205_" class="st8" points="2511,802 1802,2 1520,3 1520,280 1747.6,280 2211,802 "/>
+<polygon id="XMLID_206_" class="st1" points="2801,3 2531.3,2 1752,802 2027.4,802 "/>
+<polygon id="XMLID_208_" class="st0" points="1802,2 2048.4,280 1520,280 1520,3 "/>
+<polygon id="XMLID_210_" class="st9" points="999,0 752.6,278 1281,278 1281,1 "/>
+<rect id="XMLID_211_" x="-37" y="-276" class="st9" width="142" height="133"/>
+<polygon id="XMLID_212_" class="st0" points="-190,930 -458,930 -730.5,1208 -190,1208 "/>
+<rect id="XMLID_214_" x="-36" y="-7" class="st1" width="304" height="285"/>
+<polygon id="XMLID_213_" class="st9" points="2531.3,3 2820,3 2820,804 2530,804 "/>
+<polygon id="XMLID_201_" class="st8" points="0,1 269.8,0 1049,800 773.6,800 "/>
 </svg>
