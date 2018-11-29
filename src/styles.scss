@@ -33,14 +33,18 @@ body {
 // loading animation
 .container-loader {
   width: 100%;
-  height: calc(100vh - 96px);
+  // height: calc(100vh - 96px);
   z-index: 1000;
   background-color: #fff;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  // right: 0;
   z-index: 50;
 
   .loading {
@@ -59,7 +63,7 @@ body {
 
   @media only screen and (min-width: 120px) and (max-width : 767px) {
     .loading {
-      top: 45%;
+      top: 40%;
       left: 40%;
     }
   }
