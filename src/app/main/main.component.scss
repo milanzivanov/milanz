@@ -5,9 +5,7 @@ section#main {
   overflow: hidden;
   width: 100%;
 
-
-
-  .slider {
+  .main--slider {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,26 +13,26 @@ section#main {
     height: calc(100vh - 96px);
     animation: animate 50s linear infinite;
 
-    .slide {
+    .main--slide {
       position: relative;
       width: 25%;
       height: 100%;
       float: left;
     }
 
-    .slide1 {
+    .main-slide__slide1 {
       background-image: url("../../assets/main-cover2.svg");
       background-size: cover;
       background-position: center;
       transform: translate3d(0, 0, 0);
     }
-    .slide2 {
+    .main-slide__slide2 {
       background-image: url("../../assets/main-cover3.svg");
       background-size: cover;
       background-position: center;
       transform: translate3d(0, 0, 0);
     }
-    .slide3 {
+    .main-slide__slide3 {
       background-image: url("../../assets/main-cover4.svg");
       background-size: cover;
       background-position: center;
@@ -42,15 +40,15 @@ section#main {
     }
   }
 
-  @media only screen and (min-width: 120px) and (max-width : 767px) {
-    .slider {
+  @media only screen and (min-width: 120px) and (max-width: 767px) {
+    .main--slider {
       display: none;
       animation: none;
     }
   }
 }
 
-@media only screen and (min-width: 120px) and (max-width : 767px) {
+@media only screen and (min-width: 120px) and (max-width: 767px) {
   section#main {
     background-image: url("../../assets/bg.jpeg");
     background-size: cover;
@@ -58,17 +56,12 @@ section#main {
   }
 }
 
-
-#main:hover .slider {
-  transition: opacity .5s;
+#main:hover .main--slider {
+  transition: opacity 0.5s;
   -webkit-animation-play-state: paused;
   -moz-animation-play-state: paused;
   -o-animation-play-state: paused;
   animation-play-state: paused;
-}
-
-wider_container {
-  width: 85%;
 }
 
 .main {
@@ -85,10 +78,9 @@ wider_container {
   width: 100%;
   height: calc(100vh - 96px);
 
-  .modal-content_center {
+  .modal-content__center {
     display: flex;
     flex-direction: column;
-
   }
   .cta {
     display: inline-block;
@@ -104,12 +96,12 @@ wider_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'ns', 'Montserrat', sans-serif;
+    font-family: "ns", "Montserrat", sans-serif;
     overflow: hidden;
     &:hover {
       color: #f8d902;
       color: #ffd731;
-      color: #155799;;
+      color: #155799;
       background: black;
     }
     &:hover > .move {
@@ -122,26 +114,25 @@ wider_container {
     background: #fff;
   }
 
-  @media only screen and (min-width: 120px) and (max-width : 767px) {
+  @media only screen and (min-width: 120px) and (max-width: 767px) {
     .cta {
       font-size: 17px;
     }
   }
 
   h1 {
-    font-family: 'ns', 'Roboto', sans-serif;
+    font-family: "ns", "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 60px;
     order: -1;
     padding: 0 0 2px 0;
   }
 
-  @media only screen and (min-width: 120px) and (max-width : 767px) {
+  @media only screen and (min-width: 120px) and (max-width: 767px) {
     h1 {
       font-size: 33px;
     }
   }
-
 
   h1 span {
     color: #eee;
@@ -153,13 +144,15 @@ wider_container {
   }
 }
 
-@media only screen and (min-width: 120px) and (max-width : 767px) {
+@media only screen and (min-width: 120px) and (max-width: 767px) {
   .modal-content h1 span {
     padding: 5px 5px 0 5px;
   }
 }
 
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 // animation move
 @keyframes move {
@@ -177,40 +170,30 @@ wider_container {
 // image slider animate
 @keyframes animate {
   0% {
-      left: 0;
-      // transform: translateX(0);
+    left: 0;
   }
   20% {
-      left: 0;
-      // transform: translateX(0);
+    left: 0;
   }
   25% {
-      left: -100%;
-      // transform: translateX(-100%);
+    left: -100%;
   }
   45% {
-      left: -100%;
-      // transform: translateX(-100%);
+    left: -100%;
   }
   45% {
-      left: -100%;
-      // transform: translateX(-100%);
+    left: -100%;
   }
   50% {
-      left: -200%;
-      // transform: translateX(-200%);
+    left: -200%;
   }
   70% {
-      left: -200%;
-      // transform: translateX(-200%);
+    left: -200%;
   }
   75% {
-      left: -300%;
-      // transform: translateX(-300%);
+    left: -300%;
   }
   100% {
-      left: -300%;
-      // transform: translateX(-300%);
+    left: -300%;
   }
-
 }

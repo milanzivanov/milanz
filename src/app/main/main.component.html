@@ -1,37 +1,26 @@
 <section id="main">
-  <div class="container wider_container">
-      <div class="container">
-
-        <div class="modal-content">
-          <div class="modal-content_center">
-            <a id="modalBtn"
-               class="cta"
-               (click)="showDialog = !showDialog">
-              Frontend Developer
-              <i class="material-icons md-48 move">keyboard_arrow_right</i>
-            </a>
-            <h1>
-              <span>Milan </span>
-              <br>
-              <span>Živanov</span>
-            </h1>
-          </div>
-        </div>
-
-        <div class="main slider">
-            <!-- img slider -->
-            <div class="slide slide1">
-            </div>
-            <div class="slide slide2">
-            </div>
-            <div class="slide slide3">
-            </div>
-            <div class="slide slide1">
-            </div>
-        </div>
+  <div class="container">
+    <div class="modal-content">
+      <div class="modal-content__center">
+        <a id="modalBtn" class="cta" (click)="showDialog = !showDialog">
+          Frontend Developer
+          <i class="material-icons md-48 move">keyboard_arrow_right</i>
+        </a>
+        <h1>
+          <span>Milan </span> <br />
+          <span>Živanov</span>
+        </h1>
       </div>
+    </div>
+
+    <div class="main main--slider">
+      <!-- img slider -->
+      <div class="main--slide main-slide__slide1"></div>
+      <div class="main--slide main-slide__slide2"></div>
+      <div class="main--slide main-slide__slide3"></div>
+      <div class="main--slide main-slide__slide1"></div>
+    </div>
   </div>
 </section>
 
-<app-modal [(visible)]="showDialog">
-</app-modal>
+<app-modal [(visible)]="showDialog"> </app-modal>

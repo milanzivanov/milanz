@@ -1,27 +1,30 @@
-<section id="experience">
-</section>
+<section id="experience"></section>
 
 <section class="container">
-
   <div class="wrapper">
     <ul *ngFor="let story of stories">
       <p>
-        {{story.expi}}
-        <a *ngIf="story.website" href="{{story.website}}">link</a>
+        {{ story.expi }}
+        <a *ngIf="story.website" target="_blank" href="{{story.website}}"
+          >link</a
+        >
       </p>
     </ul>
   </div>
 
   <div class="companies">
-      <a href="https://www.vegaitsourcing.rs/" target="_blank" title="Vega It Sourcing">
-      <img src="../assets/vegait.jpg" alt="vega it sourcing">
+    <a
+      href="https://www.vegaitsourcing.rs/"
+      target="_blank"
+      title="Vega It Sourcing"
+    >
+      <img src="../assets/vegait.jpg" alt="vega it sourcing" />
     </a>
     <a href="http://www.omaadriatic.com/" target="_blank" title="Oma-Adriatic">
-        <img src="../assets/oma-adriatic.png" alt="oma-adriatic">
+      <img src="../assets/oma-adriatic.png" alt="oma-adriatic" />
     </a>
-      <a href="https://htecgroup.com/" target="_blank" title="Htec Group">
-        <img src="../assets/htec.png" alt="htec group">
-      </a>
+    <a href="https://htecgroup.com/" target="_blank" title="Htec Group">
+      <img src="../assets/htec.png" alt="htec group" />
+    </a>
   </div>
-
 </section>
