@@ -7,8 +7,6 @@ import { AgmCoreModule } from '@agm/core';
 import { ChartsModule } from 'ng2-charts';
 import { InfoService } from './info.service';
 
-import 'core-js/features/reflect';
-
 import { AppRoutingModule } from './/app-routing.module';
 import { AppComponent } from './app.component';
 import { routingComponents } from './app-routing.module';

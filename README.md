@@ -13,4 +13,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Link preview
 
-[Link preview](http://milanzivanov.com/)
+[Link preview](http://milanzivanovng.surge.sh/)
